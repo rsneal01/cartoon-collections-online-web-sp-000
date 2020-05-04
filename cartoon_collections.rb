@@ -21,7 +21,7 @@ end
 
 def find_the_cheese(cheese_array)
   cheese_array.find do |string|
-    string = cheese_types
+    string == cheese_types[0,1,2]
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
 end
